@@ -6,8 +6,10 @@ on:
       - main
 
 env:
-  AZURE_WEBAPP_NAME: "rajat-webapp-demo"   # your Azure app name
-  PYTHON_VERSION: "3.9"
+  
+  AZURE_WEBAPP_NAME: "rajat-webapp-demo"
+  PYTHON_VERSION: "3.10"   # change from 3.9 to 3.10
+
 
 jobs:
   build-and-deploy:
